@@ -5,6 +5,7 @@ public class MissingNumber {
         Scanner input = new Scanner(System.in);
         int n = Integer.valueOf(input.nextLine());
         String[] nums = input.nextLine().split(" ");
+        input.close();
         findMissingNumber(n, nums);
     }
 
